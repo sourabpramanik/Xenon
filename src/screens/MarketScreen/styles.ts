@@ -10,21 +10,20 @@ root:{
     marginTop:55
 },
 image: {
-    height: '40%',
-    aspectRatio: 1,
+    height: 175,
+    resizeMode:'contain',
 
 },
-header1: {
-    fontSize: 24,
+
+label1: {
+    fontSize: 18,
     fontWeight: 'bold',
     marginTop: 50,
     marginBottom: 15,
+    color:"black",
+    alignItems:"center"
 },
-header2 : {
-    fontSize: 20,
-    textAlign: "center",
-    color:"#707070"
-}
+
 });
 
 export default styles;
