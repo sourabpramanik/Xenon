@@ -3,7 +3,6 @@ import {View, Text, Image, FlatList} from "react-native";
 import styles from './styles'
 import PortfolioCoins from '../../components/PorfolioCoin'
 const image = require('../../../assets/images/Saly-10.png')
-const btc = require('../../../assets/images/btc.png')
 const portfolioCoins= [{
     id: '1',
     name: "Lite Coin",
